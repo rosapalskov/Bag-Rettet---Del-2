@@ -2,6 +2,8 @@
 
 *{
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 :root {
@@ -79,7 +81,7 @@ header .logo {
     background-color:var(--buttons);
   }
 
-/* Body*/
+/*Body Koncept/app*/
 
 body{
       background-color: var(--backgroundcolor);
@@ -90,7 +92,7 @@ body{
     
   }
 
-  /*Sidens overskrift*/
+  /*Koncept overskrift*/
 .overskrift{
     background-color: var(--grey);
 }
@@ -100,7 +102,7 @@ body{
     text-align: center;
 }
 
-/*Sidens tekstboks*/
+/*Koncept tekstboks*/
 .tekstboks{
     margin: 30px;
     padding:20px;
@@ -179,6 +181,9 @@ body{
    .tekstboks p{
        font-size: 35px;
    } 
+
+   .dropdown{
+       display: none;
+   }
+
 }
-
-
