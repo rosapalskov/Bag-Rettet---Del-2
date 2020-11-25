@@ -378,7 +378,7 @@ width: 100px;
 
 
     .desktop-menu{
-
+        padding: 10px;
     }
 
     .desktop-menu ul{
@@ -389,6 +389,7 @@ width: 100px;
 
     .desktop-menu li{
         color: var(--buttons);
+        font-size: 10px;
 
     }
     
