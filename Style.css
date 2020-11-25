@@ -81,6 +81,12 @@ header .logo {
     background-color:var(--buttons);
   }
 
+  /*Navigations menu til desktop format*/
+
+  .desktop-menu{
+      display: none;
+  }
+
 /*Body*/
 
 body{
@@ -240,7 +246,7 @@ font-family: 'Montserrat', sans-serif;
 
     background-color: var(--buttons);
     border-radius: 25px;
-    color: white;
+    color: white;  
     padding: 15px 50px;
     margin-top: 400px;
     margin-bottom: 23px;
@@ -279,6 +285,9 @@ font-family: 'Montserrat', sans-serif;
         background-image: url(Images/bil1.png);
     }
 
+    .desktop-menu{
+        display: block;
+    }
 
     .desktop-menu ul{
         display: flex;
