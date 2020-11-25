@@ -11,8 +11,6 @@
     --buttons: #629F6C;
     --grey: #b7b7b7;
 }
-<<<<<<< Updated upstream
-=======
 
 /*Koncept*/
 /*Header*/
@@ -38,6 +36,7 @@ header .logo {
 .dropbtn {
     background-color:var(--buttons);
     color: var(--backgroundcolor)
+    color: #E6DDC0;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -181,4 +180,5 @@ body{
        font-size: 35px;
    } 
 }
->>>>>>> Stashed changes
+}
+
