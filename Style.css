@@ -257,7 +257,7 @@ font-family: 'Montserrat', sans-serif;
         background-color: var(--buttons);
     }
     .skærm{
-            width: 1023px;
+            width: 100%;
     }
 
     .overskrift{
@@ -278,4 +278,31 @@ font-family: 'Montserrat', sans-serif;
     .index {
         background-image: url(Images/bil1.png);
     }
+
+
+    .desktop-menu ul{
+        display: flex;
+       justify-content: center;
+    }
+
+
+    .desktop-menu li{
+        padding: 5px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: 20px;
+        margin-top: 1px;
+        margin-bottom: 3px;
+        font-size: 15px;
+        color: var(--buttons);
+        font-family: 'Montserrat', sans-serif;
+        list-style-type: none;
+        outline: var(--backgroundcolor);
+        outline-style: solid;
+        outline-width: 2px;
+       
+    }
+
+   
+
 }
