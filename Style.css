@@ -206,6 +206,10 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
+
+
+
+
 /*Forside*/
 
 .index {
@@ -235,7 +239,6 @@ font-family: 'Montserrat', sans-serif;
     margin-top: 20px;
     font-family: 'Quicksand', sans-serif;
     margin: 0px;
-
 }
 
 .wrapper { 
@@ -258,6 +261,72 @@ font-family: 'Montserrat', sans-serif;
 }
 
 
+
+/*Modeller*/
+
+.grå-box {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--overskrift);
+}
+
+.grå-box h1{
+    font-size: 28px;
+    color: var(--backgroundcolor);
+    font-family:'Montserrat', sans-serif;
+}
+
+
+.carbil{
+margin-top: 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
+
+}
+.carbil div{
+max-width: 500px;
+padding: 15px;
+margin: 20px;
+background-color:var(--box-color);
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.carbil h2,p{
+ margin: 15px;
+}
+
+.carbil p{
+font-size: 22px;
+}
+
+.order {
+background-color:#629F6C;
+color: #f1f1f1;
+font-weight: bold;
+text-decoration: none;
+padding: 15px;
+margin-top: 8px;
+border-radius: 15px;
+width: 100px;
+}
+
+.readmore{
+    background-color:#464646;
+    color: #f1f1f1;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    margin-top: 8px;
+    border-radius: 15px;
+    width: 100px;
+    }
+
+
+
 @media screen and (min-width: 1024px) {
     .box {
         background-color: var(--buttons);
@@ -272,18 +341,70 @@ font-family: 'Montserrat', sans-serif;
         padding: 10px;
     }
 
+
+   .tekstboks p{
+       font-size: 35px;
+   } 
+}
+
+
+
+/*Ændring til desktop format*/
+@media screen and (min-width: 1024px) {
+    .grå-box {
+        background-color: var(--buttons);
+    }
+
     .tekstboks p{
         font-size: 35px;
     } 
 
     /*dropdown menu gjort usynlig*/
     .dropdown{
-        display: none;
+        display: none;}
+    
+    .box {
+        background-color: var(--buttons);
     }
+
+    .skærm{
+        width: 1023px;
+    }
+    
+    .overskrift{
+        background-color: var(--buttons);
+        font-size: 28px;
+        padding: 10px;
+    }
+    
+    
+    .tekstboks p{
+        font-size: 35px;
+    } 
+
+
+    .desktop-menu{
+        padding: 10px;
+    }
+
+    .desktop-menu ul{
+        text-decoration: none;
+        display: flex;
+        
+    }
+
+    .desktop-menu li{
+        color: var(--buttons);
+        font-size: 10px;
+
+    }
+    
+}
 
     .index {
         background-image: url(Images/bil1.png);
     }
+
 
     .desktop-menu{
         display: block;
@@ -312,6 +433,22 @@ font-family: 'Montserrat', sans-serif;
        
     }
 
-   
-
 }
+
+    main h1{
+        background-color: var(--buttons);
+    }
+
+    .map{
+        padding-top: 15px;
+        width: 500px;
+        height: auto;
+    }
+
+
+
+
+
+
+
+
