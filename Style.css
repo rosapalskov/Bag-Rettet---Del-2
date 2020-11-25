@@ -2,6 +2,8 @@
 
 *{
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 :root {
@@ -79,7 +81,7 @@ header .logo {
     background-color:var(--buttons);
   }
 
-/* Body*/
+/*Body*/
 
 body{
       background-color: var(--backgroundcolor);
@@ -90,7 +92,7 @@ body{
     
   }
 
-  /*Sidens overskrift*/
+  /*Koncept overskrift*/
 .overskrift{
     background-color: var(--grey);
 }
@@ -100,7 +102,7 @@ body{
     text-align: center;
 }
 
-/*Sidens tekstboks*/
+/*Koncept tekstboks*/
 .tekstboks{
     margin: 30px;
     padding:20px;
@@ -165,29 +167,9 @@ body{
     padding: 10px;
 }
 
-@media screen and (min-width: 1024px){
-    .skærm{
-        width: 1023px;
-    }
 
-    .overskrift{
-        background-color: var(--buttons);
-        font-size: 28px;
-        padding: 10px;
-    }
-
-   .tekstboks p{
-       font-size: 35px;
-   } 
-}
 
 /*Omos-side*/
-
-body{
-    background-color: var(--backgroundcolor);
-    font-family: 'Quicksand', sans-serif;
-
-}
 
 /*Overskrift-box*/
 
@@ -218,8 +200,29 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
+
+
 @media screen and (min-width: 1024px) {
     .box {
         background-color: var(--buttons);
     }
+    .skærm{
+            width: 1023px;
+    }
+
+    .overskrift{
+        background-color: var(--buttons);
+        font-size: 28px;
+        padding: 10px;
+    }
+
+    .tekstboks p{
+        font-size: 35px;
+    } 
+
+    /*dropdown menu gjort usynlig*/
+    .dropdown{
+        display: none;
+    }
+    
 }
