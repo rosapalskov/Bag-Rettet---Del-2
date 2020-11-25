@@ -15,11 +15,10 @@
 }
 
 body {
-    background-image: url(bil1.png);
-    background-size: 110%; 
-    background-attachment: scroll;
+    background-image: url(bil2.png);
+    background-size: 100%; 
+    background-attachment: cover;
     background-position: 50% 31%; 
-    background-repeat: no-repeat;   
 
 
 }
@@ -85,8 +84,10 @@ header .logo {
 
 .h1 {
 color: var(--backgroundcolor);
+background-color: rgba(0, 0, 0, 0.502);
 font-family: sans-serif;
-margin-top: 55px;
+margin-top: 0px;
+padding: 10px;
 text-align: center;
 font-family: 'Montserrat', sans-serif;
 
@@ -171,15 +172,14 @@ font-family: 'Montserrat', sans-serif;
     padding: 10px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
-    .button {
-        background-color: black;
-    }
+body {
+    background-image: url(bil1.png);
+}
 
-    
 
-    
+
 
 
 } 
