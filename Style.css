@@ -125,22 +125,22 @@ body{
     align-items: center;
 }
 
-.facebook:hover {
+.logo1:hover {
     background-color: grey;
     border-radius: 50%;
 }
 
-.instagram:hover {
+.logo2:hover {
     background-color: grey;
     border-radius: 20px;
 }
 
-.instagram {
+.logo1 {
     height: 50px;
     padding: 10px;
 }
 
-.facebook {
+.logo2 {
     height: 50px;
     padding: 10px;
 }
@@ -182,7 +182,7 @@ body{
 /*Overskrift-box*/
 
 .box {
-    background-color: var(--overskrift);
+    background-color: var(--grey);
     text-align: center;
     padding: 1px; 
 }
