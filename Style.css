@@ -341,12 +341,57 @@ width: 100px;
         padding: 10px;
     }
 
+/* General styling*/
+
+.topbox{
+    background-color: var(--box-color);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+    padding-bottom: 8px;
+}
+
+/* Titler*/
+h2{
+    padding-top: 5px;
+    margin-left: 7px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+/* Generalt for brødtekst*/
+p{
+    margin-left: 7px;
+    margin-bottom: 15px;
+}
+
+/* Større tekst (brugt til telefon nummer)*/
+.uppertext{
+    font-size: 20px;
+}
+
+/*--Styling af nederste kasser--*/
+
+/* General styling*/
+.bottombox{
+    background-color: var(--box-color);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+}
+
+.maparea{
+    display: flex;
+}
+ main
+
 
    .tekstboks p{
        font-size: 35px;
    } 
 }
-
 
 
 /*Ændring til desktop format*/
@@ -434,18 +479,76 @@ width: 100px;
 
 
 
+
+ 
+    /*Kontakt*/
+
+ main
     main h1{
         background-color: var(--buttons);
     }
 
     .map{
         padding-top: 15px;
+        padding-left: 15px;
         width: 500px;
         height: auto;
     }
 
+
+    .map-mobile-text{
+        display: none;
+    }
+
+    .map-desktop-text{
+        margin-left: 180px;
+        margin-top: 100px;
+    }
+
+    .topbox{
+        padding-right: 150px;
+    }
+    
+    .infobox-section{
+        display: flex;
+    }
+
+    main h1{
+        background-color: var(--buttons);
+    }
 }
 
+/* Kort størrelse for mindre end ipad.*/
+@media screen and (max-width: 750px){
+    .map{
+        padding-top: 15px;
+        width: 300px;
+        height: auto;
+    }
+/* Centrere kort*/
+    .maparea{
+        justify-content: center;
+    }
+    .map-desktop-text{
+        display: none;
+    }
+}
+
+/* Kort størrelse for ipad og mindre skærme.*/
+@media screen and (min-width: 750px) and (max-width: 1024px){
+    .map{
+        padding-top: 15px;
+        width: 500px;
+        height: auto;
+    }
+    /* Centrere kort*/
+    .maparea{
+        justify-content: center;
+    }
+    .map-desktop-text{
+        display: none;
+    }
+}
 
 
 
