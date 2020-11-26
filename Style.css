@@ -208,6 +208,16 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
+/*billede*/
+
+.billede {
+    display: block;
+}
+
+.billede-desktop {
+    display: none;
+}
+
 
 
 
@@ -514,13 +524,22 @@ p{
     .bottombox{
         margin-bottom: 82px;
     }
-    
+
     .copyright h1 {
         font-size: 18px;
     }
     
     .copyright {
         padding-top: 35px;
+        display: block;
+    }
+
+    /*om-os*/
+    .billede {
+        display: none;
+    }
+
+    .billede-desktop {
         display: block;
     }
 }
