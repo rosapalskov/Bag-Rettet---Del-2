@@ -163,12 +163,12 @@ body{
     border-radius: 20px;
 }
 
-.instagram {
+.logo1 {
     height: 50px;
     padding: 10px;
 }
 
-.facebook {
+.logo2 {
     height: 50px;
     padding: 10px;
 }
@@ -389,6 +389,8 @@ p{
     display: flex;
 }
 
+ main
+
 
    .tekstboks p{
        font-size: 35px;
@@ -430,7 +432,7 @@ p{
     } 
 
     .index {
-        background-image: url(Images/bil1.png);
+        background-image: url(Images/bil2.png);
     }
 
 
@@ -470,6 +472,7 @@ p{
 
  
     /*Kontakt*/
+
 
     main h1{
         background-color: var(--buttons);
