@@ -510,9 +510,8 @@ p{
 
     .bottombox{
         margin-bottom: 82px;}
-        margin-bottom: 82px;
-    }
-    
+
+
     .copyright h1 {
         font-size: 18px;
     }
@@ -522,6 +521,11 @@ p{
         display: block;
     }
 }
+
+
+
+
+
 
 /* Kort størrelse for mindre end ipad.*/
 @media screen and (max-width: 750px){
