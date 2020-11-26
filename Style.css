@@ -503,7 +503,11 @@ h3{
     }
 
     .topbox{
-        padding-right: 150px;
+        margin-left: 130px;
+        margin-right: 60px;
+        margin-bottom: 20px;
+        padding-bottom: 50px;
+        padding-right: 143px;
     }
     
     .infobox-section{
@@ -512,6 +516,10 @@ h3{
 
     main h1{
         background-color: var(--buttons);
+    }
+
+    .bottombox{
+        margin-bottom: 82px;
     }
 }
 
