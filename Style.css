@@ -381,6 +381,10 @@ p{
     padding-bottom: 15px;
 }
 
+.maparea{
+    display: flex;
+}
+
 
 /* Adresse styling.*/
 h3{
@@ -489,7 +493,7 @@ h3{
         height: auto;
     }
 
-    .map-desktop-text{
+    .map-mobile-text{
         display: none;
     }
 
@@ -515,8 +519,10 @@ h3{
     }
 /* Centrere kort*/
     .maparea{
-        display: flex;
         justify-content: center;
+    }
+    .map-desktop-text{
+        display: none;
     }
 }
 
@@ -529,8 +535,10 @@ h3{
     }
     /* Centrere kort*/
     .maparea{
-        display: flex;
         justify-content: center;
+    }
+    .map-desktop-text{
+        display: none;
     }
 }
 
