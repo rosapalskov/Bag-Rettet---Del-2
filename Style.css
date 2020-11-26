@@ -399,7 +399,6 @@ width: 100px;
 
     }
     
-}
 
     .index {
         background-image: url(Images/bil1.png);
@@ -433,7 +432,7 @@ width: 100px;
        
     }
 
-}
+
 
     main h1{
         background-color: var(--buttons);
@@ -445,7 +444,7 @@ width: 100px;
         height: auto;
     }
 
-
+}
 
 
 
