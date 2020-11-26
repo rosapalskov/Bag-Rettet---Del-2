@@ -14,7 +14,7 @@
     --grey: #b7b7b7;
 }
 
-
+/*Koncept*/
 /*Header*/
 header {
     padding: 20px;
@@ -33,11 +33,12 @@ header .logo {
     margin-top:15px;
     }
 
- /*drop down menu*/
- .dropbtn {
+
+    /*drop down menu*/
+.dropbtn {
     background-color:var(--buttons);
     color: var(--backgroundcolor);
-    color: #e6ddc0;
+    color: #E6DDC0;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -80,8 +81,7 @@ header .logo {
     background-color:var(--buttons);
   }
 
-
- /*Navigations menu til desktop format*/
+  /*Navigations menu til desktop format*/
 
   .desktop-menu{
       display: none;
@@ -92,6 +92,34 @@ header .logo {
 body{
       background-color: var(--backgroundcolor);
   }
+
+.skærm{
+      width: 414px;
+    
+  }
+
+  /*Koncept overskrift*/
+.overskrift{
+    background-color: var(--grey);
+}
+
+.overskrift h1{
+    color: var(--backgroundcolor);
+    text-align: center;
+}
+
+/*Koncept tekstboks*/
+.tekstboks{
+    margin: 30px;
+    padding:20px;
+    background-color: var(--box-color);
+}
+
+.tekstboks p{
+    text-align: center;
+    font-family: 'quicksand', sans-serif;
+}
+
 
 /*footer*/
 .footer-container {
@@ -135,46 +163,18 @@ body{
     border-radius: 20px;
 }
 
-.logo1 {
+.instagram {
     height: 50px;
     padding: 10px;
 }
 
-.logo2 {
+.facebook {
     height: 50px;
     padding: 10px;
 }
 
-
-
-
-
-/*Koncept*/
-.skærm{
-      width: 414px;
-    
-  }
-
-  /*Koncept overskrift*/
-.overskrift{
-    background-color: var(--grey);
-}
-
-.overskrift h1{
-    color: var(--backgroundcolor);
-    text-align: center;
-}
-
-/*Koncept tekstboks*/
-.tekstboks{
-    margin: 30px;
-    padding:20px;
-    background-color: var(--box-color);
-}
-
-.tekstboks p{
-    text-align: center;
-    font-family: 'quicksand', sans-serif;
+.copyright {
+    display: none;
 }
 
 /*Omos-side*/
@@ -208,10 +208,9 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
-/*Billede*/
-.billede-desktop {
-    display: none;
-}
+
+
+
 
 /*Forside*/
 
@@ -224,13 +223,13 @@ body{
 
 
 .h1 {
-    color: var(--backgroundcolor);
-    background-color: rgba(0, 0, 0, 0.502);
-    font-family: sans-serif;
-    margin-top: 0px;
-    padding: 10px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
+color: var(--backgroundcolor);
+background-color: rgba(0, 0, 0, 0.502);
+font-family: sans-serif;
+margin-top: 0px;
+padding: 10px;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -263,6 +262,8 @@ body{
     ;
 }
 
+
+
 /*Modeller*/
 
 .grå-box {
@@ -279,41 +280,41 @@ body{
 
 
 .carbil{
-    margin-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+margin-top: 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
 
 
 }
 .carbil div{
-    max-width: 500px;
-    padding: 15px;
-    margin: 20px;
-    background-color:var(--box-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    }
+max-width: 500px;
+padding: 15px;
+margin: 20px;
+background-color:var(--box-color);
+display: flex;
+flex-direction: column;
+align-items: center;
+}
 
 .carbil h2,p{
-    margin: 15px;
-    }
+ margin: 15px;
+}
 
 .carbil p{
-    font-size: 22px;
-    }
+font-size: 22px;
+}
 
 .order {
-    background-color:#629F6C;
-    color: #f1f1f1;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 15px;
-    margin-top: 8px;
-    border-radius: 15px;
-    width: 100px;
-    }
+background-color:#629F6C;
+color: #f1f1f1;
+font-weight: bold;
+text-decoration: none;
+padding: 15px;
+margin-top: 8px;
+border-radius: 15px;
+width: 100px;
+}
 
 .readmore{
     background-color:#464646;
@@ -326,21 +327,25 @@ body{
     width: 100px;
     }
 
-/*Kontakt*/
 
-/* Overskrift styling. Ændre specifikt på main's h1 pga footer*/
-main h1{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: var(--overskrift);
-    text-align: center;
-    color: #F5F3EB;
-    font-family: 'Montserrat', sans-serif;
-}
 
-/*--Styling af 2 øverste kasser--*/
+
+@media screen and (min-width: 1024px) {
+    .box {
+        background-color: var(--buttons);
+    }
+    .skærm{
+            width: 100%;
+    }
+
+    .overskrift{
+        background-color: var(--buttons);
+        font-size: 28px;
+        padding: 10px;
+    }
 
 /* General styling*/
+
 .topbox{
     background-color: var(--box-color);
     margin-left: 10%;
@@ -380,33 +385,72 @@ p{
     padding-bottom: 15px;
 }
 
-/* Centrere kort*/
 .maparea{
     display: flex;
-    justify-content: center;
 }
 
 
-/* Adresse styling.*/
-h3{
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 25px;
-    text-align: center;
+   .tekstboks p{
+       font-size: 35px;
+   } 
 }
-
 
 
 /*Ændring til desktop format*/
 @media screen and (min-width: 1024px) {
-   
+    .grå-box {
+        background-color: var(--buttons);
+    }
+
+    .tekstboks p{
+        font-size: 35px;
+    } 
 
     /*dropdown menu gjort usynlig*/
     .dropdown{
         display: none;}
-
     
-    /*Navigation i desktop*/
+    .box {
+        background-color: var(--buttons);
+    }
+
+    .skærm{
+        width: 1023px;
+    }
+    
+    .overskrift{
+        background-color: var(--buttons);
+        font-size: 28px;
+        padding: 10px;
+    }
+    
+    
+    .tekstboks p{
+        font-size: 35px;
+    } 
+
+
+    .desktop-menu{
+        padding: 10px;
+    }
+
+    .desktop-menu ul{
+        text-decoration: none;
+        display: flex;
+        
+    }
+
+    .desktop-menu li{
+        color: var(--buttons);
+        font-size: 10px;
+
+    }
+    
+
+    .index {
+        background-image: url(Images/bil1.png);
+    }
+
 
     .desktop-menu{
         display: block;
@@ -414,9 +458,9 @@ h3{
 
     .desktop-menu ul{
         display: flex;
-        justify-content: center;
-        
+       justify-content: center;
     }
+
 
     .desktop-menu li{
         padding: 5px;
@@ -426,75 +470,61 @@ h3{
         margin-top: 1px;
         margin-bottom: 3px;
         font-size: 15px;
+        color: var(--buttons);
+        font-family: 'Montserrat', sans-serif;
         list-style-type: none;
         outline: var(--backgroundcolor);
         outline-style: solid;
         outline-width: 2px;
+       
     }
 
-    .desktop-menu a{
-        text-decoration: none;
-        font-family: 'Montserrat', sans-serif;
-        color: var(--buttons);
-    }
-
-    .index {
-        background-image: url(Images/bil1.png);
-    }
-
-    /*Koncept*/
-    .skærm{
-        width: 100%;
-    }
-
-    .overskrift{
-        background-color: var(--buttons);
-        font-size: 28px;
-        padding: 10px;
-    }
-
-    /*IDK*/
-    .box {
-        background-color: var(--buttons);
-    }
-    
-    .grå-box {
-        background-color: var(--buttons);
-    }
-
-    .tekstboks p{
-        font-size: 35px;
-    } 
 
 
-    /*Forside*/
-    .index {
-        background-image: url(Images/bil2.png);
-    }
-
-    /*Om os billede*/
-    .billede {
-        display: none;
-    }
-
-    .billede-desktop {
-        display: block;
-    }
 
  
     /*Kontakt*/
+
     main h1{
         background-color: var(--buttons);
     }
 
     .map{
         padding-top: 15px;
+        padding-left: 15px;
         width: 500px;
         height: auto;
     }
+
+
+    .map-mobile-text{
+        display: none;
+    }
+
+    .map-desktop-text{
+        margin-left: 180px;
+        margin-top: 100px;
+    }
+
+    .topbox{
+        padding-right: 150px;
+    }
     
+    .infobox-section{
+        display: flex;
+    }
+
     main h1{
         background-color: var(--buttons);
+    }
+
+    .copyright h1 {
+        font-size: 18px;
+    }
+    
+    .copyright {
+        padding-top: 35px;
+        display: block;
     }
 }
 
@@ -505,17 +535,30 @@ h3{
         width: 300px;
         height: auto;
     }
+/* Centrere kort*/
+    .maparea{
+        justify-content: center;
+    }
+    .map-desktop-text{
+        display: none;
+    }
 }
 
 /* Kort størrelse for ipad og mindre skærme.*/
-@media screen and (min-width: 750px) and (max-width: 1130px){
+@media screen and (min-width: 750px) and (max-width: 1024px){
     .map{
         padding-top: 15px;
         width: 500px;
         height: auto;
     }
+    /* Centrere kort*/
+    .maparea{
+        justify-content: center;
+    }
+    .map-desktop-text{
+        display: none;
+    }
 }
-
 
 
 
