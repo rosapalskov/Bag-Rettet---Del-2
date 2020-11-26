@@ -177,14 +177,6 @@ body{
     font-family: 'quicksand', sans-serif;
 }
 
-
-
-
-
-
-
-
-
 /*Omos-side*/
 
 /*Overskrift-box*/
@@ -216,10 +208,10 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
-
-
-
-
+/*Billede*/
+.billede-desktop {
+    display: none;
+}
 
 /*Forside*/
 
@@ -270,11 +262,6 @@ body{
     font-family: 'Montserrat', sans-serif;
     ;
 }
-
-
-
-
-
 
 /*Modeller*/
 
@@ -338,10 +325,6 @@ body{
     border-radius: 15px;
     width: 100px;
     }
-
-
-
-
 
 /*Kontakt*/
 
@@ -426,25 +409,42 @@ h3{
     /*Navigation i desktop*/
 
     .desktop-menu{
-        padding: 10px;
+        display: block;
     }
 
     .desktop-menu ul{
-        text-decoration: none;
         display: flex;
+        justify-content: center;
         
     }
 
     .desktop-menu li{
-        color: var(--buttons);
-        font-size: 10px;
-
+        padding: 5px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: 20px;
+        margin-top: 1px;
+        margin-bottom: 3px;
+        font-size: 15px;
+        list-style-type: none;
+        outline: var(--backgroundcolor);
+        outline-style: solid;
+        outline-width: 2px;
     }
-    
-   
+
+    .desktop-menu a{
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        color: var(--buttons);
+    }
+
+    .index {
+        background-image: url(Images/bil1.png);
+    }
+
     /*Koncept*/
     .skærm{
-            width: 100%;
+        width: 100%;
     }
 
     .overskrift{
@@ -472,9 +472,17 @@ h3{
         background-image: url(Images/bil1.png);
     }
 
+    /*Om os billede*/
+    .billede {
+        display: none;
+    }
+
+    .billede-desktop {
+        display: block;
+    }
+
  
     /*Kontakt*/
-
     main h1{
         background-color: var(--buttons);
     }
@@ -489,9 +497,6 @@ h3{
         background-color: var(--buttons);
     }
 }
-
-
-
 
 /* Kort størrelse for mindre end ipad.*/
 @media screen and (max-width: 750px){
