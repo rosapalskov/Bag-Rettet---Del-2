@@ -334,9 +334,9 @@ body{
 main h1{
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: var(--overskrift);
+    background-color: var(--grey);
     text-align: center;
-    color: #F5F3EB;
+    color: var(--backgroundcolor);
     font-family: 'Montserrat', sans-serif;
 }
 
