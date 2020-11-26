@@ -2,6 +2,8 @@
 
 *{
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 :root {
@@ -35,6 +37,7 @@ header .logo {
     /*drop down menu*/
 .dropbtn {
     background-color:var(--buttons);
+    color: var(--backgroundcolor);
     color: #E6DDC0;
     padding: 16px;
     font-size: 16px;
@@ -78,7 +81,7 @@ header .logo {
     background-color:var(--buttons);
   }
 
-/* Body*/
+/*Body*/
 
 body{
       background-color: var(--backgroundcolor);
@@ -89,7 +92,7 @@ body{
     
   }
 
-  /*Sidens overskrift*/
+  /*Koncept overskrift*/
 .overskrift{
     background-color: var(--grey);
 }
@@ -99,7 +102,7 @@ body{
     text-align: center;
 }
 
-/*Sidens tekstboks*/
+/*Koncept tekstboks*/
 .tekstboks{
     margin: 30px;
     padding:20px;
@@ -164,9 +167,97 @@ body{
     padding: 10px;
 }
 
-@media screen and (min-width: 1024px){
+
+
+/*Omos-side*/
+
+/*Overskrift-box*/
+
+.box {
+    background-color: var(--overskrift);
+    text-align: center;
+    padding: 1px; 
+}
+
+.box h1 {
+    font-size: 28px;
+    color: var(--backgroundcolor);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Text box*/
+
+.text {
+    background-color: var(--box-color);
+    margin: 25px;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.text h2 {
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*Forside*/
+
+.index {
+    background-image: url(Images/bil1.png);
+    background-size: 100%; 
+    background-attachment: cover;
+    background-position: 50% 31%;
+}
+
+
+.h1 {
+color: var(--backgroundcolor);
+background-color: rgba(0, 0, 0, 0.502);
+font-family: sans-serif;
+margin-top: 0px;
+padding: 10px;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.words {
+    color: black; 
+    background: var(--box-color);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px;
+
+}
+
+.wrapper { 
+    text-align: center;
+}
+
+.button {
+
+    background-color: var(--buttons);
+    border-radius: 25px;
+    color: white;
+    padding: 15px 50px;
+    margin-top: 400px;
+    margin-bottom: 23px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    font-family: 'Montserrat', sans-serif;
+    ;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .box {
+        background-color: var(--buttons);
+    }
     .skærm{
-        width: 1023px;
+            width: 1023px;
     }
 
     .overskrift{
@@ -175,7 +266,16 @@ body{
         padding: 10px;
     }
 
-   .tekstboks p{
-       font-size: 35px;
-   } 
+    .tekstboks p{
+        font-size: 35px;
+    } 
+
+    /*dropdown menu gjort usynlig*/
+    .dropdown{
+        display: none;
+    }
+
+    .index {
+        background-image: url(Images/bil1.png);
+    }
 }
