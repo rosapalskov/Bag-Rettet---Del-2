@@ -358,6 +358,7 @@ main h1{
 /*--Styling af 2 øverste kasser--*/
 
 /* General styling*/
+
 .topbox{
     background-color: var(--box-color);
     margin-left: 10%;
@@ -485,6 +486,10 @@ h3{
         height: auto;
     }
     
+    .infobox-section{
+        display: flex;
+    }
+
     main h1{
         background-color: var(--buttons);
     }
