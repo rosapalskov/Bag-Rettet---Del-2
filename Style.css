@@ -389,9 +389,6 @@ p{
     display: flex;
 }
 
- main
-
-
    .tekstboks p{
        font-size: 35px;
    } 
@@ -513,6 +510,9 @@ p{
 
     .bottombox{
         margin-bottom: 82px;}
+        margin-bottom: 82px;
+    }
+    
     .copyright h1 {
         font-size: 18px;
     }
