@@ -153,12 +153,12 @@ body{
     align-items: center;
 }
 
-.facebook:hover {
+.logo1:hover {
     background-color: grey;
     border-radius: 50%;
 }
 
-.instagram:hover {
+.logo2:hover {
     background-color: grey;
     border-radius: 20px;
 }
