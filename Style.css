@@ -173,7 +173,9 @@ body{
     padding: 10px;
 }
 
-
+.copyright {
+    display: none;
+}
 
 /*Omos-side*/
 
@@ -514,6 +516,15 @@ p{
 
     main h1{
         background-color: var(--buttons);
+    }
+
+    .copyright h1 {
+        font-size: 18px;
+    }
+    
+    .copyright {
+        padding-top: 35px;
+        display: block;
     }
 }
 
