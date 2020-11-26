@@ -398,12 +398,6 @@ p{
     padding-bottom: 15px;
 }
 
-/* Centrere kort*/
-.maparea{
-    display: flex;
-    justify-content: center;
-}
-
 
 /* Adresse styling.*/
 h3{
@@ -505,14 +499,24 @@ h3{
         width: 300px;
         height: auto;
     }
+/* Centrere kort*/
+    .maparea{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 /* Kort størrelse for ipad og mindre skærme.*/
-@media screen and (min-width: 750px) and (max-width: 1130px){
+@media screen and (min-width: 750px) and (max-width: 1024px){
     .map{
         padding-top: 15px;
         width: 500px;
         height: auto;
+    }
+    /* Centrere kort*/
+    .maparea{
+        display: flex;
+        justify-content: center;
     }
 }
 
