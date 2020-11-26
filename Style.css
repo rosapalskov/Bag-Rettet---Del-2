@@ -327,6 +327,7 @@ width: 100px;
 
 
 
+
 @media screen and (min-width: 1024px) {
     .box {
         background-color: var(--buttons);
@@ -385,6 +386,7 @@ p{
 .maparea{
     display: flex;
 }
+
  main
 
 
@@ -483,7 +485,7 @@ p{
  
     /*Kontakt*/
 
- main
+
     main h1{
         background-color: var(--buttons);
     }
