@@ -208,6 +208,14 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
+.billede-desktop {
+    display: none;
+}
+
+.billede {
+    display: block;
+}
+
 
 
 
@@ -520,6 +528,17 @@ p{
         padding-top: 35px;
         display: block;
     }
+
+    /*omos*/
+
+    .billede {
+        display: none;
+    }
+
+    .billede-desktop {
+        display: block;
+    }
+
 }
 
 
