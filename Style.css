@@ -14,7 +14,7 @@
     --grey: #b7b7b7;
 }
 
-
+/*Koncept*/
 /*Header*/
 header {
     padding: 20px;
@@ -33,11 +33,12 @@ header .logo {
     margin-top:15px;
     }
 
- /*drop down menu*/
- .dropbtn {
+
+    /*drop down menu*/
+.dropbtn {
     background-color:var(--buttons);
     color: var(--backgroundcolor);
-    color: #e6ddc0;
+    color: #E6DDC0;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -80,8 +81,7 @@ header .logo {
     background-color:var(--buttons);
   }
 
-
- /*Navigations menu til desktop format*/
+  /*Navigations menu til desktop format*/
 
   .desktop-menu{
       display: none;
@@ -92,6 +92,34 @@ header .logo {
 body{
       background-color: var(--backgroundcolor);
   }
+
+.skærm{
+      width: 414px;
+    
+  }
+
+  /*Koncept overskrift*/
+.overskrift{
+    background-color: var(--grey);
+}
+
+.overskrift h1{
+    color: var(--backgroundcolor);
+    text-align: center;
+}
+
+/*Koncept tekstboks*/
+.tekstboks{
+    margin: 30px;
+    padding:20px;
+    background-color: var(--box-color);
+}
+
+.tekstboks p{
+    text-align: center;
+    font-family: 'quicksand', sans-serif;
+}
+
 
 /*footer*/
 .footer-container {
@@ -145,41 +173,8 @@ body{
     padding: 10px;
 }
 
-.copyright{
+.copyright {
     display: none;
-}
-
-
-
-/*Koncept*/
-.skærm{
-      width: 414px;
-    
-  }
-
-  /*Koncept overskrift*/
-.overskrift{
-    background-color: var(--grey);
-    text-align: center;
-    padding: 1px;
-}
-
-.overskrift h1{
-    font-size: 28px;
-    color: var(--backgroundcolor);
-    font-family: 'Montserrat', sans-serif;
-}
-
-/*Koncept tekstboks*/
-.tekstboks{
-    margin: 30px;
-    padding:20px;
-    background-color: var(--box-color);
-}
-
-.tekstboks p{
-    text-align: center;
-    font-family: 'quicksand', sans-serif;
 }
 
 /*Omos-side*/
@@ -213,25 +208,14 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
-/*billede*/
 
-.billede {
-    display: block;
-}
 
-.billede-desktop {
-    display: none;
-}
 
-/*Billede*/
-.billede-desktop {
-    display: none;
-}
 
 /*Forside*/
 
 .index {
-    background-image: url(Images/bil1.png);
+    background-image: url(images/bil1.png);
     background-size: 100%; 
     background-attachment: cover;
     background-position: 50% 31%;
@@ -239,13 +223,13 @@ body{
 
 
 .h1 {
-    color: var(--backgroundcolor);
-    background-color: rgba(0, 0, 0, 0.502);
-    font-family: sans-serif;
-    margin-top: 0px;
-    padding: 10px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
+color: var(--backgroundcolor);
+background-color: rgba(0, 0, 0, 0.502);
+font-family: sans-serif;
+margin-top: 0px;
+padding: 10px;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -278,6 +262,8 @@ body{
     ;
 }
 
+
+
 /*Modeller*/
 
 .grå-box {
@@ -294,41 +280,41 @@ body{
 
 
 .carbil{
-    margin-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+margin-top: 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
 
 
 }
 .carbil div{
-    max-width: 500px;
-    padding: 15px;
-    margin: 20px;
-    background-color:var(--box-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    }
+max-width: 500px;
+padding: 15px;
+margin: 20px;
+background-color:var(--box-color);
+display: flex;
+flex-direction: column;
+align-items: center;
+}
 
 .carbil h2,p{
-    margin: 15px;
-    }
+ margin: 15px;
+}
 
 .carbil p{
-    font-size: 22px;
-    }
+font-size: 22px;
+}
 
 .order {
-    background-color:#629F6C;
-    color: #f1f1f1;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 15px;
-    margin-top: 8px;
-    border-radius: 15px;
-    width: 100px;
-    }
+background-color:#629F6C;
+color: #f1f1f1;
+font-weight: bold;
+text-decoration: none;
+padding: 15px;
+margin-top: 8px;
+border-radius: 15px;
+width: 100px;
+}
 
 .readmore{
     background-color:#464646;
@@ -341,19 +327,22 @@ body{
     width: 100px;
     }
 
-/*Kontakt*/
 
-/* Overskrift styling. Ændre specifikt på main's h1 pga footer*/
-main h1{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: var(--grey);
-    text-align: center;
-    color: var(--backgroundcolor);
-    font-family: 'Montserrat', sans-serif;
-}
 
-/*--Styling af 2 øverste kasser--*/
+
+@media screen and (min-width: 1024px) {
+    .box {
+        background-color: var(--buttons);
+    }
+    .skærm{
+            width: 100%;
+    }
+
+    .overskrift{
+        background-color: var(--buttons);
+        font-size: 28px;
+        padding: 10px;
+    }
 
 /* General styling*/
 
@@ -400,31 +389,49 @@ p{
     display: flex;
 }
 
-
-/* Adresse styling.*/
-h3{
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 25px;
-    text-align: center;
+   .tekstboks p{
+       font-size: 35px;
+   } 
 }
 
 
 /*Ændring til desktop format*/
 @media screen and (min-width: 1024px) {
-   
+    .grå-box {
+        background-color: var(--buttons);
+    }
+
+    .tekstboks p{
+        font-size: 35px;
+    } 
 
     /*dropdown menu gjort usynlig*/
     .dropdown{
         display: none;}
-
-
+    
+    .box {
+        background-color: var(--buttons);
+    }
 
     .skærm{
         width: 100%;
     }
     
-    /*Navigation i desktop*/
+    .overskrift{
+        background-color: var(--buttons);
+        font-size: 28px;
+        padding: 10px;
+    }
+    
+    
+    .tekstboks p{
+        font-size: 35px;
+    } 
+
+    .index {
+        background-image: url(images/bil2.png);
+    }
+
 
     .desktop-menu{
         display: block;
@@ -432,9 +439,9 @@ h3{
 
     .desktop-menu ul{
         display: flex;
-        justify-content: center;
-        
+       justify-content: center;
     }
+
 
     .desktop-menu li{
         padding: 5px;
@@ -448,59 +455,21 @@ h3{
         outline: var(--backgroundcolor);
         outline-style: solid;
         outline-width: 2px;
+       
     }
 
     .desktop-menu a{
         text-decoration: none;
-        font-family: 'Montserrat', sans-serif;
         color: var(--buttons);
+        font-family: 'Montserrat', sans-serif;
     }
 
-    .index {
-        background-image: url(Images/bil1.png);
-    }
-
-    /*Koncept*/
-    .skærm{
-        width: 100%;
-    }
-
-    .overskrift{
-        background-color: var(--buttons);
-        font-size: 28px;
-        padding: 10px;
-    }
-
-    /*IDK*/
-    .box {
-        background-color: var(--buttons);
-    }
-    
-    .grå-box {
-        background-color: var(--buttons);
-    }
-
-    .tekstboks p{
-        font-size: 35px;
-    } 
 
 
-    /*Forside*/
-    .index {
-        background-image: url(Images/bil2.png);
-    }
-
-    /*Om os billede*/
-    .billede {
-        display: none;
-    }
-
-    .billede-desktop {
-        display: block;
-    }
 
  
     /*Kontakt*/
+
 
     main h1{
         background-color: var(--buttons);
@@ -512,6 +481,7 @@ h3{
         width: 500px;
         height: auto;
     }
+
 
     .map-mobile-text{
         display: none;
@@ -527,7 +497,7 @@ h3{
         margin-right: 60px;
         margin-bottom: 20px;
         padding-bottom: 50px;
-        padding-right: 150px;
+        padding-right: 143px;
     }
     
     .infobox-section{
@@ -539,27 +509,23 @@ h3{
     }
 
     .bottombox{
-        margin-bottom: 82px;
-    }
+        margin-bottom: 82px;}
 
-    .copyright h1{
+
+    .copyright h1 {
         font-size: 18px;
     }
-
-    .copyright{
+    
+    .copyright {
         padding-top: 35px;
         display: block;
     }
-
-    /*om-os*/
-    .billede {
-        display: none;
-    }
-
-    .billede-desktop {
-        display: block;
-    }
 }
+
+
+
+
+
 
 /* Kort størrelse for mindre end ipad.*/
 @media screen and (max-width: 750px){
