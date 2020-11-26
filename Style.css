@@ -37,7 +37,7 @@ header .logo {
  .dropbtn {
     background-color:var(--buttons);
     color: var(--backgroundcolor);
-    color: #E6DDC0;
+    color: #e6ddc0;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -469,7 +469,7 @@ h3{
 
     /*Forside*/
     .index {
-        background-image: url(Images/bil1.png);
+        background-image: url(Images/bil2.png);
     }
 
     /*Om os billede*/
