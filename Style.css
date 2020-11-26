@@ -160,11 +160,14 @@ body{
   /*Koncept overskrift*/
 .overskrift{
     background-color: var(--grey);
+    text-align: center;
+    padding: 1px;
 }
 
 .overskrift h1{
+    font-size: 28px;
     color: var(--backgroundcolor);
-    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*Koncept tekstboks*/
