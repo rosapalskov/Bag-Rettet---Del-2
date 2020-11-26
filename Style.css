@@ -389,6 +389,8 @@ p{
     display: flex;
 }
 
+ main
+
 
    .tekstboks p{
        font-size: 35px;
@@ -484,6 +486,7 @@ p{
 
  
     /*Kontakt*/
+
 
     main h1{
         background-color: var(--buttons);
