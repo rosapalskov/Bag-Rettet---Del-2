@@ -429,24 +429,6 @@ p{
         font-size: 35px;
     } 
 
-
-    .desktop-menu{
-        padding: 10px;
-    }
-
-    .desktop-menu ul{
-        text-decoration: none;
-        display: flex;
-        
-    }
-
-    .desktop-menu li{
-        color: var(--buttons);
-        font-size: 10px;
-
-    }
-    
-
     .index {
         background-image: url(Images/bil1.png);
     }
@@ -470,13 +452,17 @@ p{
         margin-top: 1px;
         margin-bottom: 3px;
         font-size: 15px;
-        color: var(--buttons);
-        font-family: 'Montserrat', sans-serif;
         list-style-type: none;
         outline: var(--backgroundcolor);
         outline-style: solid;
         outline-width: 2px;
        
+    }
+
+    .desktop-menu a{
+        text-decoration: none;
+        color: var(--buttons);
+        font-family: 'Montserrat', sans-serif;
     }
 
 
