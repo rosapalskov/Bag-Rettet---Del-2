@@ -160,11 +160,14 @@ body{
   /*Koncept overskrift*/
 .overskrift{
     background-color: var(--grey);
+    text-align: center;
+    padding: 1px;
 }
 
 .overskrift h1{
+    font-size: 28px;
     color: var(--backgroundcolor);
-    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*Koncept tekstboks*/
@@ -208,6 +211,16 @@ body{
 .text h2 {
     font-size: 20px;
     font-family: 'Quicksand', sans-serif;
+}
+
+/*billede*/
+
+.billede {
+    display: block;
+}
+
+.billede-desktop {
+    display: none;
 }
 
 /*Billede*/
@@ -526,7 +539,7 @@ h3{
     }
 
     .bottombox{
-        margin-bottom: 81px;
+        margin-bottom: 82px;
     }
 
     .copyright h1{
@@ -535,6 +548,15 @@ h3{
 
     .copyright{
         padding-top: 35px;
+        display: block;
+    }
+
+    /*om-os*/
+    .billede {
+        display: none;
+    }
+
+    .billede-desktop {
         display: block;
     }
 }
