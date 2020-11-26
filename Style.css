@@ -182,7 +182,7 @@ body{
 /*Overskrift-box*/
 
 .box {
-    background-color: var(--overskrift);
+    background-color: var(--grey);
     text-align: center;
     padding: 1px; 
 }
