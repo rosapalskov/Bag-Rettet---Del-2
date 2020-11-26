@@ -81,6 +81,12 @@ header .logo {
     background-color:var(--buttons);
   }
 
+  /*Navigations menu til desktop format*/
+
+  .desktop-menu{
+      display: none;
+  }
+
 /*Body*/
 
 body{
@@ -243,7 +249,7 @@ font-family: 'Montserrat', sans-serif;
 
     background-color: var(--buttons);
     border-radius: 25px;
-    color: white;
+    color: white;  
     padding: 15px 50px;
     margin-top: 400px;
     margin-bottom: 23px;
@@ -326,7 +332,7 @@ width: 100px;
         background-color: var(--buttons);
     }
     .skærm{
-            width: 1023px;
+            width: 100%;
     }
 
     .overskrift{
@@ -398,6 +404,36 @@ width: 100px;
     .index {
         background-image: url(Images/bil1.png);
     }
+
+
+    .desktop-menu{
+        display: block;
+    }
+
+    .desktop-menu ul{
+        display: flex;
+       justify-content: center;
+    }
+
+
+    .desktop-menu li{
+        padding: 5px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: 20px;
+        margin-top: 1px;
+        margin-bottom: 3px;
+        font-size: 15px;
+        color: var(--buttons);
+        font-family: 'Montserrat', sans-serif;
+        list-style-type: none;
+        outline: var(--backgroundcolor);
+        outline-style: solid;
+        outline-width: 2px;
+       
+    }
+
+}
 
     main h1{
         background-color: var(--buttons);
